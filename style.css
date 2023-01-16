@@ -1,0 +1,359 @@
+body{
+    --fbc-blue-60: #0060df;
+    --fbc-blue-70: #003eaa;
+    --fbc-gray-20: #ededf0;
+    --fbc-light-gray: #F0F0F4;
+    --fbc-white: #ffffff;
+    --fbc-transition: all .15s cubic-bezier(.07,.95,0,1);
+    --fbc-borders: 1px solid #ededf0;
+    --fbc-primary-text: #15141A;
+    --fbc-secondary-text: #5B5B66;
+    --fbc-font-size: 13px;
+}
+.ov1{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #fff;
+}
+.ov2{
+    font-family: Open Sans,sans-serif;
+}
+.res{
+    min-height: calc(100vh - 142px);
+}
+.head{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.left-conner{
+    float: left;
+    background-color: #ffffff;
+    height: 100%;
+    position: relative;
+}
+.right-conner{
+    float: right;
+    background-color: #ffffff;
+    height: 100%;
+    position: relative;
+}
+.img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 316px;
+    height: 84px;
+    margin: 8px 40px 0 0;
+}
+.bef{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    content: "";
+    border-left: 50px solid #ffffff;
+    position: absolute;
+    right: -50px;
+}
+.bef2{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    content: "";
+    border-right: 50px solid #ffffff;
+    position: absolute;
+    left: -50px;
+}
+.text-menu{
+    margin: 0;
+    padding: 0 20px;
+    list-style: none;
+    display: inline-block;
+    font-weight: 700;
+}
+.m1{
+    display: inline-block;
+    padding: 40px 39px 0;
+    height: 60px;
+    margin: 0;
+}
+.a1{
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+}.sp1{
+    font-weight: 700;
+    color: #333;
+}
+.af1{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scaleX(0);
+    transform-origin: right top;
+    transition: transform .3s;
+}
+.intro{
+    background-image: url(https://arcaea.lowiro.com/img/background_homepage-hero@2x.6664435e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+}
+.middle-content{
+    position: absolute;
+    bottom: 50px;
+    left: 26.5vw;
+    text-align: center;
+}
+.mid1{
+    width: 14vw;
+}
+.mid2{
+    width: 47vw
+}
+.text{
+    text-align: center;
+}
+.download-app{
+    background-image: url(https://arcaea.lowiro.com/img/backgrounds_3@2x.8ad6903d.jpg);
+    background-size: 1920px 1113px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    padding-top: 42px;
+    height: 109px;
+    text-align: center;
+}
+.cen{
+    text-align: center;
+}
+.ios-link{
+    text-decoration: none;
+}
+.ios{
+    padding: 11px 8px 11px 0;
+}
+.and-link{
+    text-decoration: none;
+}
+.songs{
+    text-align: center;
+    background-image: url(https://arcaea.lowiro.com/img/backgrounds_1@2x.624114c7.jpg);
+    background-size: 1920px 2354px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 53px 0 56px 0;
+}
+.and{
+    color: inherit;
+}
+.menu-songs{
+    height: 75px;
+    max-width: 100%;
+}
+.subtitle{
+    padding-top: 26px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.character{
+    text-align: center;
+    background-image: url(https://arcaea.lowiro.com/img/characters_background.715d698f.jpg);
+    background-size: 1920px 2354px;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 53px 0 56px 0;
+}.img-head{
+    height: 75px;
+    max-width: 100%;
+}
+.main-character{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.hiles{
+    width: 48%;
+    display: inline-block;
+}
+.demo1{
+    width: 100%;
+}
+.taigei{
+    width: 48%;
+    display: inline-block;
+}
+.demo2{
+    width: 100%;
+}
+.screenshot{
+    text-align: center;
+    background-image: url(https://arcaea.lowiro.com/img/backgrounds_1@2x.624114c7.jpg);
+    background-size: 1920px 2354px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 69px 0 94px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.head-img{
+    height: 75px;
+    max-width: 100%;
+}
+.small-img{
+    display: flex;
+    margin-top: 66px;
+}
+.small1{
+    display: flex;
+    width: 18.4%;
+    cursor: pointer;
+    margin-right: 2%;
+}
+.big-img{
+    width: 100%;
+    margin-top: 34px;
+}
+.big1{
+    width: 100%;
+}
+.videos{
+    text-align: center;
+    background-image: url(https://arcaea.lowiro.com/img/backgrounds_2@2x.e159aae6.jpg);
+    background-size: 1920px 2353px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 70px 0 101px 0;
+}
+.main{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.img-head2{
+    text-align: center;
+}
+.img-header{
+    height: 75px;
+    max-width: 100%;
+}
+.video{
+    width: 100%;
+    margin-top: 61px;
+}
+.nitendo{
+    background: url(https://arcaea.lowiro.com/img/background-switchpermanent.cc945e0c.svg) no-repeat 50%;
+    background-size: auto;
+    background-size: cover;
+    width: 100%;
+    max-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 60px 0 90px 0;
+    max-width: 1920px;
+    margin: -2px auto 0 auto;
+}
+.button{
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    max-height: 120px;
+    padding: 20px 0 30px 0;
+    background: url(https://arcaea.lowiro.com/img/button_switch-permanent.05bc9100.svg) no-repeat 50%;
+    background-size: auto;
+    background-size: contain;
+    position: relative;
+}
+.b2{
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    max-height: 120px;
+    padding: 20px 0 30px 0;
+    background-size: auto;
+    background-size: contain;
+    position: relative;
+}
+.b1{
+    font-family: Titillium Web,sans-serif;
+    font-weight: 700;
+}
+.dot{
+    border: none;
+    background: url(https://arcaea.lowiro.com/img/diamonds-switch.a840949a.svg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 16.5px;
+    margin: 0 auto 10px auto;
+    width: 100%;
+    position: absolute;
+    top: 155%;
+}
+.social{
+    height: 152px;
+    text-align: center;
+}
+.la{
+    font-family: Titillium Web,sans-serif;
+    font-weight: 700;
+}
+.line{
+    margin: 39px 31px 0 0;
+}
+.twitter{
+    margin: 39px 31px 0 0;
+}
+.facebook{
+    margin-right: 0;
+}
+.link{
+    background-color: #34333e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.copyright{
+    font-family: Open Sans,sans-serif;
+}
+.le{
+    width: 400px;
+    text-align: center;
+}
+.le1{
+    text-align: center;
+}
+.mi{
+    width: 250px;
+    text-align: center;
+}
+.mi1{
+    padding-bottom: 10px;
+}
+.mi2{
+    color: inherit;
+}
+.ri{
+    width: 400px;
+    text-align: center;
+}
